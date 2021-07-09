@@ -2,5 +2,5 @@ Doon Fight Club's Website
 
 Made in Django
 
-Hello --> project
+Hello --> project  
 home --> app
