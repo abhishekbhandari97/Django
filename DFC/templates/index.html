@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock title %}
+
+{% block body %}
+<!-- CROUSEL -->
+<div class="container my-2">
+    <div id="carouselExampleDark" class="carousel  slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://source.unsplash.com/1200x600/?wrestling,kickboxing" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>Mixed Martial Arts</h2>
+                    <p>MMA is a full-contact combat sport based on striking, grappling and ground fighting,
+                        incorporating techniques from various combat sports and martial arts from around the world.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://source.unsplash.com/1200x600/?muaythai,juijitsu" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>MMA For Fitness</h2>
+                    <p>MMA training does wonders to your whole body,It increases your
+                        stamina,strength,cardio,flexibility,mobility,reflexes,power and also has many mental health
+                        benefits.This is why MMA fighters are among some of the most conditioned athletes in all of
+                        sports. </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/1200x600/?mma,boxing" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>MMA For All Ages</h2>
+                    <p>People from all age group can practice Martial Arts.It helps to improve our mood,confidence,self
+                        discipline and it is fun and safe for everyone! </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+{% endblock body %}
